@@ -1,4 +1,3 @@
-#from brain_games.cli import welcome_user
 from brain_games.scripts.brain_games import welcome_user
 import random
 
@@ -15,7 +14,8 @@ def par_impar(name):
         print(f'Question: {tempNum}')
 
         userGame = input('Your answer: ').strip().lower()
-
+        
+        #verificar si es numero par o impar
         if tempNum % 2 == 0:
             result = 'yes'
         else:
@@ -27,7 +27,7 @@ def par_impar(name):
         else:
             print(f'{userGame} is wrong answer ;(. Correct answer was {result}.')
             print(f'Let´s try again, {name}')
-            break
+            break # fin del juego
     else: 
         print(f'Congratulations, {name}!')
 

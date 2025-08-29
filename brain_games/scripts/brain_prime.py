@@ -10,7 +10,7 @@ def Numprime(name):
 
     while num < 3:
         prime = random.randint(1, 100)
-        #resul = is_prime(prime)
+
         print(f'Question: {prime}')
 
         userGame = input('Your answer: ').strip().lower()
@@ -26,13 +26,10 @@ def Numprime(name):
                 print(f"Let's try again, {name}!")
                 return
     else:
-        print(f'Congratulations, {name}!')
-
-        
+        print(f'Congratulations, {name}!')        
 
 
 def is_prime(primo):
-    #Verifica si el número es primo o no
     if primo <= 1:
         return False
     for i in range(2, int(primo ** 0.5) + 1):
@@ -41,12 +38,11 @@ def is_prime(primo):
     return True
 
 
-
 def main():
 
     name = welcome_user()
     Numprime(name)
 
 if __name__ == "__main__":
-    
+
     main()

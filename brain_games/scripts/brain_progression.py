@@ -22,7 +22,7 @@ def progression(name):
             else:
                 print(f"'{userGame}' is wrong answer ;(. Correct answer was '{correct}'.")
                 print(f"Let's try again, {name}!")
-                return  # termina los intentos
+                return
         else:
             print(f"'{userGame}' is not a valid number. Game Over!")
             return
@@ -30,17 +30,16 @@ def progression(name):
     print(f'Congratulations, {name}!')
 
 
-
 def generate():
-    #Genera una progresión aritmética.
-    inicio = random.randint(1, 20)          # Primer número
-    diferencia = random.randint(2, 10)           # Diferencia común
-    longitud = random.randint(5, 10)         # Longitud de la progresión
+
+    inicio = random.randint(1, 20)
+    diferencia = random.randint(2, 10)
+    longitud = random.randint(5, 10)
 
     progression = [inicio + diferencia * i for i in range(longitud)]
     index = random.randint(0, longitud - 1)
     listaNum = progression[index]
-    progression[index] = ".."      # Reemplaza el número con puntos
+    progression[index] = ".."
 
     return progression, listaNum
 
@@ -50,5 +49,5 @@ def main():
     progression(name)
 
 if __name__ == "__main__":
-    
+
     main()

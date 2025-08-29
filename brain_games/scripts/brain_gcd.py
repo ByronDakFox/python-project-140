@@ -9,6 +9,7 @@ def MCD(name):
     num = 0
 
     while num < 3:
+
         num1 = random.randint(1, 200)
         num2 = random.randint(1, 200)
 
@@ -16,9 +17,7 @@ def MCD(name):
 
         print(f'Question: {num1} {num2}')
         userGame = input('Your answer: ')
-        
 
-        # Verificar si la respuesta es numérica
         if userGame.strip().isdigit():
             if int(userGame) == correct:
                 print('Correct!')
@@ -26,7 +25,7 @@ def MCD(name):
             else:
                 print(f"'{userGame}' is wrong answer ;(. Correct answer was '{correct}'.")
                 print(f"Let's try again, {name}!")
-                return  # termina el juego 
+                return
         else:
             print(f"'{userGame}' is not a valid number. Game Over!")
             return

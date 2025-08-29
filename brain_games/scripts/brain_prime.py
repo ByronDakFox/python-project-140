@@ -22,7 +22,7 @@ def Numprime(name):
                 print('Correct!')
                 num += 1
             else:
-                print(f'{userGame} is wrong answer ;(. Correct answer was {correct}.')
+                print(f"'{userGame}' is wrong answer ;(. Correct answer was '{correct}'.")
                 print(f"Let's try again, {name}!")
                 return
     else:

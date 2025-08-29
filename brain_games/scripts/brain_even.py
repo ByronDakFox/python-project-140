@@ -11,7 +11,7 @@ def par_impar(name):
     while num < 3:
 
         tempNum = random.randint(1, 30)
-        print(f'Question: {tempNum}')
+        print(f"Question: {tempNum}")
 
         userGame = input('Your answer: ').strip().lower()
         
@@ -25,8 +25,8 @@ def par_impar(name):
             print('Correct!')
             num +=1
         else:
-            print(f'{userGame} is wrong answer ;(. Correct answer was {result}.')
-            print(f'Let´s try again, {name}')
+            print(f"'{userGame}' is wrong answer ;(. Correct answer was '{result}'.")
+            print(f"Let's try again, {name}!")
             break # fin del juego
     else: 
         print(f'Congratulations, {name}!')

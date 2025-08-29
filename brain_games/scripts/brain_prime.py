@@ -6,7 +6,6 @@ def Numprime(name):
 
 
     print('Answer "yes" if given number is prime. Otherwise answer "no".')
-
     num = 0
 
     while num < 3:
@@ -33,6 +32,8 @@ def Numprime(name):
 
 
 def is_prime(primo):
+
+
     if primo <= 1:
         return False
     for i in range(2, int(primo ** 0.5) + 1):
@@ -48,6 +49,4 @@ def main():
     Numprime(name)
 
 if __name__ == "__main__":
-
-
     main()

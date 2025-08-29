@@ -5,7 +5,6 @@ import random
 def calculator(name):
 
     print('What is the result of the expression?')
-
     operations = ['+', '-', '*']
     num = 0
 
@@ -27,7 +26,12 @@ def calculator(name):
     
         userGame = input('Your answer: ')
 
-        if userGame.strip().isdigit() or (userGame.strip()[0] == '-' and userGame.strip()[1:].isdigit()):
+        if (
+            userGame.strip().isdigit()
+            or (
+                userGame.strip()[0] == '-'
+                and userGame.strip()[1:].isdigit())):
+
             if int(userGame) == correct:
                 print("Correct!")
                 num += 1
@@ -51,6 +55,4 @@ def main():
     calculator(name)
 
 if __name__ == "__main__":
-
-
     main()

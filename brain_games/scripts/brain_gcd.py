@@ -7,7 +7,6 @@ def MCD(name):
 
 
     print('Find the greatest common divisor of given numbers.')
-
     num = 0
 
     while num < 3:
@@ -44,6 +43,4 @@ def main():
     MCD(name)
 
 if __name__ == "__main__":
-
-
     main()

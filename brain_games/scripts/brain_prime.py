@@ -2,14 +2,33 @@ from brain_games.scripts.brain_games import welcome_user
 import random
 
 
-def par_impar(name):
+def Numprime(name):
 
     print('Answer "yes" if given number is prime. Otherwise answer "no".')
 
-    prime = random.randint(2, 200)
-    resul = is_prime(prime)
-    print(f'Question: {prime}')
     num = 0
+
+    while num < 3:
+        prime = random.randint(1, 100)
+        #resul = is_prime(prime)
+        print(f'Question: {prime}')
+
+        userGame = input('Your answer: ').strip().lower()
+
+        correct = 'yes' if is_prime(prime) else 'no'
+
+        if userGame in ['yes', 'no']:
+            if userGame == correct:
+                print('Correct!')
+                num += 1
+            else:
+                print(f'{userGame} is wrong answer ;(. Correct answer was {correct}.')
+                print(f'Let´s try again, {name}')
+                return
+    else:
+        print(f'Congratulations, {name}!')
+
+        
 
 
 def is_prime(primo):
@@ -26,7 +45,7 @@ def is_prime(primo):
 def main():
 
     name = welcome_user()
-    par_impar(name)
+    Numprime(name)
 
 if __name__ == "__main__":
     

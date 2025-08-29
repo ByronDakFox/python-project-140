@@ -6,6 +6,7 @@ def par_impar(name):
 
 
     print('Answer "yes" if the number is even, otherwise answer "no".')
+
     num = 0
 
     while num < 3:
@@ -22,6 +23,7 @@ def par_impar(name):
 
         if result == userGame:
             print('Correct!')
+
             num +=1
 
         else:
@@ -38,7 +40,10 @@ def main():
 
 
     name = welcome_user()
+
+
     par_impar(name)
 
 if __name__ == "__main__":
+
     main()

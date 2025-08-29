@@ -25,7 +25,7 @@ def MCD(name):
                 num += 1
             else:
                 print(f"'{userGame}' is wrong answer ;(. Correct answer was '{correct}'.")
-                print(f"Let's try again, {name}")
+                print(f"Let's try again, {name}!")
                 return  # termina el juego 
         else:
             print(f"'{userGame}' is not a valid number. Game Over!")

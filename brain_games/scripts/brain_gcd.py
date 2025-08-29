@@ -14,7 +14,7 @@ def MCD(name):
 
         correct = math.gcd(num1, num2)
 
-        print(f'Question: {num1} | {num2}')
+        print(f'Question: {num1} {num2}')
         userGame = input('Your answer: ')
         
 

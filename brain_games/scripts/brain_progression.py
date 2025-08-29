@@ -4,6 +4,7 @@ import random
 
 def progression(name):
 
+
     print('What number is missing in the progression?')
 
     num = 0
@@ -20,7 +21,9 @@ def progression(name):
                 print('Correct!')
                 num += 1
             else:
-                print(f"'{userGame}' is wrong answer ;(. Correct answer was '{correct}'.")
+                print((
+                    f"'{userGame}' is wrong answer ;(." 
+                    f"Correct answer was '{correct}'."))
                 print(f"Let's try again, {name}!")
                 return
         else:
@@ -45,9 +48,11 @@ def generate():
 
 def main():
 
+
     name = welcome_user()
     progression(name)
 
 if __name__ == "__main__":
+
 
     main()

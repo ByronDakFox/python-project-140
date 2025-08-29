@@ -1,12 +1,13 @@
 from brain_games.scripts.brain_games import welcome_user
 import random
 
+
 def par_impar(name):
+
 
     print('Answer "yes" if the number is even, otherwise answer "no".')
 
     num = 0
-
 
     while num < 3:
 
@@ -24,7 +25,9 @@ def par_impar(name):
             print('Correct!')
             num +=1
         else:
-            print(f"'{userGame}' is wrong answer ;(. Correct answer was '{result}'.")
+            print((
+                f"'{userGame}' is wrong answer ;(." 
+                f"Correct answer was '{result}'."))
             print(f"Let's try again, {name}!")
             break
     else: 
@@ -33,9 +36,11 @@ def par_impar(name):
 
 def main():
 
+
     name = welcome_user()
     par_impar(name)
 
 if __name__ == "__main__":
+
 
     main()

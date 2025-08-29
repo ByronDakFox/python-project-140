@@ -4,6 +4,7 @@ import random
 
 def Numprime(name):
 
+
     print('Answer "yes" if given number is prime. Otherwise answer "no".')
 
     num = 0
@@ -22,7 +23,9 @@ def Numprime(name):
                 print('Correct!')
                 num += 1
             else:
-                print(f"'{userGame}' is wrong answer ;(. Correct answer was '{correct}'.")
+                print((
+                    f"'{userGame}' is wrong answer ;(." 
+                    f"Correct answer was '{correct}'."))
                 print(f"Let's try again, {name}!")
                 return
     else:
@@ -40,9 +43,11 @@ def is_prime(primo):
 
 def main():
 
+
     name = welcome_user()
     Numprime(name)
 
 if __name__ == "__main__":
+
 
     main()

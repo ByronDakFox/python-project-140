@@ -2,7 +2,9 @@ from brain_games.scripts.brain_games import welcome_user
 import random
 import math
 
+
 def MCD(name):
+
 
     print('Find the greatest common divisor of given numbers.')
 
@@ -23,7 +25,9 @@ def MCD(name):
                 print('Correct!')
                 num += 1
             else:
-                print(f"'{userGame}' is wrong answer ;(. Correct answer was '{correct}'.")
+                print((
+                    f"'{userGame}' is wrong answer ;(." 
+                    f"Correct answer was '{correct}'."))
                 print(f"Let's try again, {name}!")
                 return
         else:
@@ -32,11 +36,14 @@ def MCD(name):
 
     print(f'Congratulations, {name}!')
 
+
 def main():
+
 
     name = welcome_user()
     MCD(name)
 
 if __name__ == "__main__":
-    
+
+
     main()

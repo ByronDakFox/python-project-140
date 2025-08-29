@@ -32,7 +32,9 @@ def calculator(name):
                 print("Correct!")
                 num += 1
             else:
-                print(f"'{userGame}' is wrong answer ;(. Correct answer was '{correct}'.")
+                print((
+                    f"'{userGame}' is wrong answer ;(." 
+                    f"Correct answer was '{correct}'."))
                 print(f"Let's try again, {name}!")
                 return
         else:
@@ -44,9 +46,11 @@ def calculator(name):
 
 def main():
 
+
     name = welcome_user()
     calculator(name)
 
 if __name__ == "__main__":
+
 
     main()

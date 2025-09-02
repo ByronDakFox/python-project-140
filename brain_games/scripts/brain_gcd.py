@@ -4,8 +4,6 @@ import math
 
 
 def MCD(name):
-
-
     print('Find the greatest common divisor of given numbers.')
     num = 0
 
@@ -38,12 +36,8 @@ def MCD(name):
 
 def main():
     name = welcome_user()
-
-
     MCD(name)
 
 
 if __name__ == "__main__":
-
-
     main()

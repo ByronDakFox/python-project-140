@@ -3,8 +3,6 @@ import random
 
 
 def Numprime(name):
-
-
     print('Answer "yes" if given number is prime. Otherwise answer "no".')
     num = 0
 
@@ -32,11 +30,7 @@ def Numprime(name):
 
 
 def is_prime(primo):
-
-
     if primo <= 1:
-
-
         return False
     for i in range(2, int(primo ** 0.5) + 1):
         if primo % i == 0:

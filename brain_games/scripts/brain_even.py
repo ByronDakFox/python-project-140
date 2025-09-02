@@ -3,8 +3,6 @@ import random
 
 
 def par_impar(name):
-
-
     print('Answer "yes" if the number is even, otherwise answer "no".')
     num = 0
 
@@ -37,10 +35,7 @@ def par_impar(name):
 
 def main():
     name = welcome_user()
-
-
     par_impar(name)
 
 if __name__ == "__main__":
-
     main()

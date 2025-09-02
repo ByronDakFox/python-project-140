@@ -40,8 +40,6 @@ def is_prime(primo):
 
 def main():
     name = welcome_user()
-
-
     Numprime(name)
 
 

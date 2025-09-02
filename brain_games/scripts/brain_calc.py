@@ -3,7 +3,6 @@ import random
 
 
 def calculator(name):
-
     print('What is the result of the expression?')
     operations = ['+', '-', '*']
     num = 0
@@ -50,8 +49,6 @@ def calculator(name):
 
 def main():
     name = welcome_user()
-
-
     calculator(name)
 
 if __name__ == "__main__":

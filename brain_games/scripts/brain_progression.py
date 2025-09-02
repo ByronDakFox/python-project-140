@@ -3,8 +3,6 @@ import random
 
 
 def progression(name):
-
-
     print('What number is missing in the progression?')
     num = 0
 
@@ -45,8 +43,6 @@ def generate():
 
 def main():
     name = welcome_user()
-
-
     progression(name)
 
 

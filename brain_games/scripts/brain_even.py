@@ -6,7 +6,6 @@ def par_impar(name):
 
 
     print('Answer "yes" if the number is even, otherwise answer "no".')
-
     num = 0
 
     while num < 3:

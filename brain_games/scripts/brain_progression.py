@@ -6,8 +6,6 @@ def progression(name):
 
 
     print('What number is missing in the progression?')
-
-
     num = 0
 
     while num < 3:
@@ -35,11 +33,7 @@ def progression(name):
 
 
 def generate():
-
-
     inicio = random.randint(1, 20)
-
-
     diferencia = random.randint(2, 10)
     longitud = random.randint(5, 10)
     progression = [inicio + diferencia * i for i in range(longitud)]
@@ -48,9 +42,8 @@ def generate():
     progression[index] = ".."
     return progression, listaNum
 
+
 def main():
-
-
     name = welcome_user()
 
 
@@ -58,6 +51,4 @@ def main():
 
 
 if __name__ == "__main__":
-
-
     main()

@@ -37,8 +37,6 @@ def MCD(name):
 
 
 def main():
-
-
     name = welcome_user()
 
 

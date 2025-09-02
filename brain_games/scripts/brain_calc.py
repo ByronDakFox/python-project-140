@@ -49,8 +49,6 @@ def calculator(name):
 
 
 def main():
-
-
     name = welcome_user()
 
 

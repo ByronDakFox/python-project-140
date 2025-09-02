@@ -24,7 +24,7 @@ def par_impar(name):
         if result == userGame:
             print('Correct!')
 
-            num +=1
+            num += 1
 
         else:
             print((
@@ -37,8 +37,6 @@ def par_impar(name):
 
 
 def main():
-
-
     name = welcome_user()
 
 

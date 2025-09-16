@@ -42,3 +42,5 @@ Para comenzar con el Juego de acuerdo a los archivos que se encuentran el la car
 
 * Un asciinema integrado que muestre cada paso. En la grabación, debes mostrar cómo instalar la aplicación y jugar, incluyendo tanto un resultado exitoso como uno fallido.
 
+- brain-even
+[![asciicast](https://asciinema.org/a/740924.svg)](https://asciinema.org/a/740924)

@@ -42,5 +42,17 @@ Para comenzar con el Juego de acuerdo a los archivos que se encuentran el la car
 
 * Un asciinema integrado que muestre cada paso. En la grabación, debes mostrar cómo instalar la aplicación y jugar, incluyendo tanto un resultado exitoso como uno fallido.
 
-- brain-even
-[![asciicast](https://asciinema.org/a/740924.svg)](https://asciinema.org/a/740924)
+  - brain-even
+    [![asciicast](https://asciinema.org/a/740924.svg)](https://asciinema.org/a/740924)
+
+  - brain-calc
+    [![asciicast](https://asciinema.org/a/741092.svg)](https://asciinema.org/a/741092)
+
+  - brain-gcd
+    [![asciicast](https://asciinema.org/a/741097.svg)](https://asciinema.org/a/741097)
+
+  - brain-progression
+    [![asciicast](https://asciinema.org/a/741098.svg)](https://asciinema.org/a/741098)
+
+  - brain-prime
+    [![asciicast](https://asciinema.org/a/741101.svg)](https://asciinema.org/a/741101)
